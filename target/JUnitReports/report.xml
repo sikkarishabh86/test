@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="8.553">
+<testcase classname="open browser" name="open chrome browser" time="4.489">
+<system-out><![CDATA[Given chrome is open........................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="open firefox browser" name="open firefox browser" time="8.313">
+<system-out><![CDATA[Given firefox is open.......................................................passed
+Then close the firefox......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

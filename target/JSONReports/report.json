@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-19T10:23:35.477Z",
+        "line": 4,
+        "name": "open chrome browser",
+        "description": "",
+        "id": "open-browser;open-chrome-browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4094003700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "chrome is open",
+            "match": {
+              "location": "steps.Chrome.chrome_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289006000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the browser",
+            "match": {
+              "location": "steps.Chrome.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@QAReady"
+          }
+        ]
+      }
+    ],
+    "name": "open browser",
+    "description": "",
+    "id": "open-browser",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/chrome.feature",
+    "tags": [
+      {
+        "name": "@QAReady",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-19T10:23:35.476Z",
+        "line": 4,
+        "name": "open firefox browser",
+        "description": "",
+        "id": "open-firefox-browser;open-firefox-browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4041001600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "firefox is open",
+            "match": {
+              "location": "steps.Firefox.firefox_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4145732100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the firefox",
+            "match": {
+              "location": "steps.Firefox.close_the_firefox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@QAReady"
+          }
+        ]
+      }
+    ],
+    "name": "open firefox browser",
+    "description": "",
+    "id": "open-firefox-browser",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/firefox.feature",
+    "tags": [
+      {
+        "name": "@QAReady",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
