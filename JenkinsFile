@@ -3,6 +3,9 @@ pipeline{
     environment{
         PATH = "C:/apache-maven-3.8.3-bin/apache-maven-3.8.3/bin:$PATH"
     }
+    tools{
+    maven "Maven 3.8.3"
+    }
     
     stages{
         stage("Demo"){
