@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment{
-        MVN_PATH = "C:/apache-maven-3.8.3-bin/apache-maven-3.8.3/bin:$MVN_PATH"
+        PATH = "C:/apache-maven-3.8.3-bin/apache-maven-3.8.3/bin:$PATH"
     }
     
     stages{
