@@ -3,9 +3,7 @@ pipeline{
     environment{
         PATH = "C:/apache-maven-3.8.3-bin/apache-maven-3.8.3/bin:$PATH"
     }
-    tools {
-        maven 'M2_HOME'
-    }
+    
     stages{
         stage("Demo"){
             steps{
