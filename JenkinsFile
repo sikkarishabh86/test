@@ -5,14 +5,14 @@ pipeline{
     maven 'maven-3.8.3'
     }
     environment{
-        M2_HOME = "C:/apache-maven-3.8.3-bin/apache-maven-3.8.3/bin:$M2_HOME"
+        M2_HOME = "/bin:$M2_HOME"
     }
     
     stages{
         stage("Demo"){
             steps{
                 echo "hey! Whats up??"
-                echo "$M2_HOME"
+                echo "M2_HOME"
             }
         }
     }
