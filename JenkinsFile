@@ -9,7 +9,7 @@ pipeline{
                 echo "hey! Whats up??"
                 echo "$Path"
                 echo "$ENV"
-                bat "mvn clean"
+                bat "mvn clean install"
             }
         }
     }
