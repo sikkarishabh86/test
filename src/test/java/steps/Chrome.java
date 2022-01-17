@@ -34,7 +34,7 @@ public class Chrome {
 	    WebDriverManager.chromedriver().setup();
 	    driver = new ChromeDriver();
 	    driver.get(prop.getProperty("url"));
-	    System.out.println(System.getenv("ENV"));
+	    System.out.println(System.getenv("ENV1"));
 	}
 
 	@Then("close the browser")
