@@ -1,14 +1,11 @@
 pipeline{
     agent any
-    environment{
-        PATH = "C:/apache-maven-3.8.3-bin/apache-maven-3.8.3/bin:$PATH"
-    }
-    
     stages{
         stage("Demo"){
             steps{
                 echo "hey! Whats up??"
                 echo "$Path"
+                bat "mvn clean"
             }
         }
     }
