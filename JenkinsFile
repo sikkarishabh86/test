@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment{
-    ENV = "test:$ENV"
+    ENV = "test"
     }
     stages{
         stage("Demo"){
