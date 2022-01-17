@@ -1,18 +1,14 @@
 pipeline{
     agent any
-    
-    tools{
-    maven 'maven-3.8.3'
-    }
     environment{
-        M2_HOME = "/bin:$M2_HOME"
+        Path = "C:\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin:$Path"
     }
     
     stages{
         stage("Demo"){
             steps{
                 echo "hey! Whats up??"
-                echo "M2_HOME"
+                echo "$Path"
             }
         }
     }
