@@ -19,6 +19,8 @@ public class Chrome {
 	
 	Properties prop;
 	
+	String env = System.getenv("ENV1");
+	
 	@Before
 	public void setup() throws IOException {
 		prop = new Properties();
