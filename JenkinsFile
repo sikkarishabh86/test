@@ -14,11 +14,5 @@ pipeline{
                 echo "hey! Whats up??"
             }
         }
-     
-        stage("maven build"){
-            steps{
-                'mvn clean package'
-            }
-        }
     }
 }
