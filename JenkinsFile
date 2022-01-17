@@ -1,10 +1,14 @@
 pipeline{
     agent any
+    environment{
+    ENV = "test:$ENV"
+    }
     stages{
         stage("Demo"){
             steps{
                 echo "hey! Whats up??"
                 echo "$Path"
+                echo "$ENV"
                 bat "mvn clean"
             }
         }
