@@ -12,6 +12,7 @@ pipeline{
         stage("Demo"){
             steps{
                 echo "hey! Whats up??"
+                echo "$M2_HOME"
             }
         }
     }
